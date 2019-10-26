@@ -1,1 +1,1 @@
-# StockMarketTracker
+# StockMarketTrackerDemo
