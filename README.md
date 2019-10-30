@@ -1,1 +1,2 @@
 # StockMarketTrackerDemo
+# functions
