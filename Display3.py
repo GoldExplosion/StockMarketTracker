@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+from tkinter import *
 import urllib.request
 import urllib.parse
 import urllib.error
@@ -9,6 +10,7 @@ import json
 import ast
 import os
 from urllib.request import Request, urlopen
+from pprint import pprint
 
 def Display(url):
     # For ignoring SSL certificate errors
@@ -91,7 +93,15 @@ def Display(url):
     company_json['OTHER_DETAILS'] = other_details
     with open('data.json', 'w') as outfile:
         json.dump(company_json, outfile, indent=4)
-    print(company_json)
-    with open('output_file.html', 'wb') as file:
-        file.write(html)
+    Stock = open('data.json', "r")
+
+    root = Tk()
+    root.title("Stock Details Of Selected Company")
     
+    for data in Stock:
+        
+        lbl = Label(root, text=data)
+        lbl.pack()
+    mainloop()
+    
+        

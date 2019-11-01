@@ -1,4 +1,5 @@
 from tkinter import *
+
 import Display3
 root = Tk()
 root.title("STOCKZ")
@@ -34,6 +35,7 @@ button1 = Button(root, text='APPLE', width=25, command=lambda: Display3.Display(
 button1.pack()
 button1 = Button(root, text='SAMSUNG', width=25, command=lambda: Display3.Display(url6)) 
 button1.pack()
+
 space1=Label(root,text="\n\n\n")
 space1.pack()
 button = Button(root, text='PORTFOLIO', width=25, command="NONE") 
