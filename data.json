@@ -1,23 +1,21 @@
 {
-    "PRESENT_VALUE": "251.05",
-    "PRESENT_GROWTH": "+2.29 (+0.92%)",
+    "PRESENT_VALUE": "53.21",
     "OTHER_DETAILS": {
-        "PREV_CLOSE": "248.76",
-        "OPEN": "249.54",
-        "BID": "251.17 x 900",
-        "ASK": "250.30 x 1200",
-        "TD_VOLUME": "5,231,864",
-        "AVERAGE_VOLUME_3MONTH": "28,178,896",
-        "MARKET_CAP": "1.135T",
-        "BETA_3Y": "1.10",
-        "PE_RATIO": "21.11",
-        "EPS_RATIO": "11.89",
+        "PREV_CLOSE": "52.89",
+        "OPEN": "53.18",
+        "BID": "53.04 x 800",
+        "ASK": "53.06 x 800",
+        "TD_VOLUME": "677,056",
+        "AVERAGE_VOLUME_3MONTH": "2,581,772",
+        "MARKET_CAP": "38.559B",
+        "BETA_3Y": "N/A",
+        "PE_RATIO": "16.95",
+        "EPS_RATIO": "3.14",
         "EARNINGS_DATE": [
-            "Jan 27, 2020",
-            "Jan 31, 2020"
+            "26 Nov 2019"
         ],
-        "DIVIDEND_AND_YIELD": "3.08 (1.27%)",
-        "EX_DIVIDEND_DATE": "2019-08-09",
-        "ONE_YEAR_TARGET_PRICE": "250.95"
+        "DIVIDEND_AND_YIELD": "N/A (N/A)",
+        "EX_DIVIDEND_DATE": "N/A",
+        "ONE_YEAR_TARGET_PRICE": "66.16"
     }
 }
