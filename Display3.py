@@ -10,7 +10,6 @@ import json
 import ast
 import os
 from urllib.request import Request, urlopen
-from pprint import pprint
 
 def Display(url):
     # For ignoring SSL certificate errors
@@ -27,6 +26,9 @@ def Display(url):
     html = soup.prettify('utf-8')
     company_json = {}
     other_details = {}
+    var = url.split('/')[4]
+    company_json['NAME'] = var 
+
     for span in soup.findAll('span',
                              attrs={'class': 'Trsdu(0.3s) Trsdu(0.3s) Fw(b) Fz(36px) Mb(-4px) D(b)'
                              }):
@@ -96,7 +98,8 @@ def Display(url):
     Stock = open('data.json', "r")
 
     root = Tk()
-    root.title("Stock Details Of Selected Company")
+    
+    root.title(var)
     
     for data in Stock:
         

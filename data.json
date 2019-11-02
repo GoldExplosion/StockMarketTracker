@@ -1,21 +1,23 @@
 {
-    "PRESENT_VALUE": "53.21",
+    "NAME": "AMZN",
+    "PRESENT_VALUE": "1,791.44",
     "OTHER_DETAILS": {
-        "PREV_CLOSE": "52.89",
-        "OPEN": "53.18",
-        "BID": "53.04 x 800",
-        "ASK": "53.06 x 800",
-        "TD_VOLUME": "677,056",
-        "AVERAGE_VOLUME_3MONTH": "2,581,772",
-        "MARKET_CAP": "38.559B",
-        "BETA_3Y": "N/A",
-        "PE_RATIO": "16.95",
-        "EPS_RATIO": "3.14",
+        "PREV_CLOSE": "1,776.66",
+        "OPEN": "1,788.01",
+        "BID": "1,789.00 x 1300",
+        "ASK": "1,790.00 x 1000",
+        "TD_VOLUME": "2,790,354",
+        "AVERAGE_VOLUME_3MONTH": "7,482,876",
+        "MARKET_CAP": "888.191B",
+        "BETA_3Y": "1.63",
+        "PE_RATIO": "79.38",
+        "EPS_RATIO": "22.57",
         "EARNINGS_DATE": [
-            "26 Nov 2019"
+            "Jan 29, 2020",
+            "Feb 3, 2020"
         ],
         "DIVIDEND_AND_YIELD": "N/A (N/A)",
         "EX_DIVIDEND_DATE": "N/A",
-        "ONE_YEAR_TARGET_PRICE": "66.16"
+        "ONE_YEAR_TARGET_PRICE": "2,184.22"
     }
 }
